@@ -1,5 +1,7 @@
 $(document).ready(function(){
+    $("#url").hide();
     $("#add").click(function(){
+        $("#url").show();
      var url = $("#url").val();
        console.log(url);
 
