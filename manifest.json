@@ -7,13 +7,7 @@
   },
   "browser_action":{
     "default_icon":"headphones.png",
-  "default_popup":"music.html"
-  },
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "css": ["style.css"],
-      "js": ["jquery-2.1.4.min.js", "js/content.js"]
-    }
-  ]
+    "default_popup":"music.html"
+  }
+
 }
