@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,14 +12,23 @@
     <img src="img/hans.jpg" height="40px" width="40px">
     <h1>SONG:528491</h1>
     <h1>Artist:Hans Zimmer</h1>
+    </div>
 
 
 
     <div id="buttons">
-        <button type="button" id="previous">PREV</button>
-        <button type="button" id="pause">||</button>
-        <button type="button" id="next">NEXT</button>
-    </div>
+        <button id="back" type="button" class="btn btn-default btn-xs">
+            <span class="glyphicon glyphicon-backward"></span>
+
+            <button id="play" type="button" class="btn btn-default btn-xs">
+                <span class="glyphicon glyphicon-play"></span>
+            </button>
+
+            <button id="next" type="button" class="btn btn-default btn-xs">
+                <span class="glyphicon glyphicon-forward"></span>
+
+            </button>
+
   <!--<form>
       URL: <input type="text" name="url" id="url" placeholder="https://www.youtube.com/watch?v=57cOmxB12XI"><br>
   </form>-->
