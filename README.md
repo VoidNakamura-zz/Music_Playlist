@@ -8,4 +8,7 @@ Settings -> Extensions -> Enable developer mode -> Load unpacked extension -> Di
 
 Or download through the store,
 
-TBA
+
+https://chrome.google.com/webstore/detail/your-favorite-music-playl/aleobbpmediefodcneeedpnecigonign
+
+
